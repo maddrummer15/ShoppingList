@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.trevipe.shoppinglist.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_add"
+    android:icon="@drawable/ic_add_circle_black_48dp"
+    android:title="@string/action_add"
+    app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_save"
+        android:icon="@drawable/ic_save_black_48dp"
+        android:title="@string/action_save"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_load"
+        android:icon="@drawable/ic_content_paste_black_48dp"
+        android:title="@string/action_load"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_setParam"
+        android:icon="@drawable/ic_content_paste_black_48dp"
+        android:title="@string/action_setParam"
+        app:showAsAction="always" />
+</menu>
